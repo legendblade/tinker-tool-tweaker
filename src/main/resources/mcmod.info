@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "tinkertooltweaker",
+  "name": "Tinker's Tool Tweaker",
+  "description": "Adds extra ZenScript methods to assist in modifying Tinker's tools.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["TarynWinterblade"],
+  "credits": "jaredlll08 for maintaining CraftTweaker, MTLib, and for the code in ModTweaker that a lot of this is based on.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

@@ -7,7 +7,12 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = TinkerToolTweaker.MODID, name = TinkerToolTweaker.NAME, version = TinkerToolTweaker.VERSION)
+@Mod(
+    modid = TinkerToolTweaker.MODID,
+    name = TinkerToolTweaker.NAME,
+    version = TinkerToolTweaker.VERSION,
+    dependencies = "required-after:crafttweaker;required-after:mtlib"
+)
 public class TinkerToolTweaker
 {
     public static final String MODID = "tinkertooltweaker";
